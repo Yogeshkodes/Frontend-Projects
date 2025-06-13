@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Section {
+  background: linear-gradient(135deg, #a8c686 0%, #d8e4cc 50%, #d8f0f9 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordian {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  border: 1px solid rgba(238, 255, 47, 0.747);
+  border-radius: 12px;
+  position: relative;
+  padding: 20px;
+}
+
+.icon {
+  position: absolute;
+  top: 40%;
+  right: 15px;
+  cursor: pointer;
+  /* rotate: 180deg; */
+}
+
+.icon.active {
+  rotate: 180deg;
+}
+.answer {
+  display: none;
+}
