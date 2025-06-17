@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+span i {
+  font-size: 30px;
+  color: gray;
+  transition: color 0.3s;
+}
+
+.hover {
+  color: gold;
+}
+
+.active {
+  color: gold;
+}
