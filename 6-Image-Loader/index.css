@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  margin-left: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 300px;
+}
+
+span {
+  margin-top: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.load-btn {
+  background-color: rgba(235, 189, 105, 0.89);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  margin: 20px 0 0 10px;
+  cursor: pointer;
+}
