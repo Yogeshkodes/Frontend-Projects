@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.tic-tac-container {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 10px;
+  margin: 30px;
+}
+.tic-tac-box {
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+  background-color: rgb(180, 179, 179);
+  border-radius: 8px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.btn {
+  cursor: pointer;
+  width: 150px;
+  padding: 10px 20px;
+  border: 1px solid rgb(206, 202, 202);
+  border-radius: 8px;
+  margin-top: 30px;
+  background-color: rgb(121, 205, 121);
+}
