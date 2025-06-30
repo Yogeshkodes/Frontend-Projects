@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  width: 150px;
+  height: 50px;
+  /* text-align: center; */
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 20px 20px 0;
+  border: none;
+  background-color: rgb(237, 130, 92);
+  /* color: black; */
+  border-radius: 8px;
+  cursor: pointer;
+}
