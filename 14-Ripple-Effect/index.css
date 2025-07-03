@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: aqua;
+  min-height: 100dvh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn {
+  overflow: hidden;
+  position: relative;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(
+    135deg,
+    #ffd700 0%,
+    #ff9900 25%,
+    #ff69b4 50%,
+    #ff33cc 75%,
+    #ff0099 100%
+  );
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn > span {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: ripple 1s linear infinite;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@keyframes ripple {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  100% {
+    height: 500px;
+    width: 500px;
+  }
+}
