@@ -24,6 +24,7 @@ h3 {
 }
 
 .progress-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -44,6 +45,20 @@ h3 {
   height: 4px;
   background-color: brown;
   width: 330px;
+}
+
+.activebar {
+  position: absolute;
+  /* margin-bottom: -20px; */
+  margin-top: 4px;
+  height: 5px;
+  background-color: yellow;
+  width: 0px;
+
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  /* display: none; */
 }
 
 .circles-container {
