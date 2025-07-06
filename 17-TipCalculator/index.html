@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container bg-zinc-800 text-white">
+      <h2>Tip Calculator</h2>
+      <div>
+        <label for="billAmount">Bill Amount</label>
+        <input
+          class="border-gray-200 border"
+          type="number"
+          id="billAmount"
+          min="0"
+        />
+      </div>
+      <div>
+        <label for="discount">Discount Percentage</label> <span></span>
+        <input type="text" id="discount" />
+      </div>
+      <div>
+        <label for="Percentage">Tips Percentage</label><span></span>
+        <input type="text" id="tips" />
+      </div>
+      <div>
+        <label for="No.of Customers">No. of Customers</label> <span></span>
+        <input type="text" id="noofCustomers" />
+      </div>
+
+      <button class="btn">Submit button</button>
+
+      <div class="data"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
